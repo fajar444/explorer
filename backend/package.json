@@ -1,0 +1,30 @@
+{
+  "name": "explorer-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "bun seed.ts",
+    "db:reset": "bun seed.ts",
+    "test": "bun test",
+    "test:unit": "bun test tests/unit/",
+    "test:integration": "bun test tests/integration/"
+  },
+  "dependencies": {
+    "7z-wasm": "^1.2.0",
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/swagger": "^1.2.0",
+    "drizzle-orm": "^0.38.0",
+    "elysia": "^1.2.0",
+    "fflate": "^0.8.3",
+    "node-unrar-js": "^2.0.2",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.0",
+    "@types/pg": "^8.11.0",
+    "bun-types": "latest"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "explorer",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "overrides": {
+    "vite": "6.4.3"
+  }
+}
