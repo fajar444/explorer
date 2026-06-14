@@ -430,5 +430,5 @@ Frontend tests use Vitest with the same `describe / it / expect` API (file names
 ---
 
 <div align="center">
-Built with Bun, Elysia, Vue 3 & PostgreSQL.
+Built with Bun, Elysia, Vue 3 and PostgreSQL.
 </div>

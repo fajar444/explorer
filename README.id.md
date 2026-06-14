@@ -425,5 +425,5 @@ Pengujian frontend memakai Vitest dengan API `describe / it / expect` yang sama 
 ---
 
 <div align="center">
-Dibuat dengan Bun, Elysia, Vue 3 & PostgreSQL.
+Dibuat dengan Bun, Elysia, Vue 3 dan PostgreSQL.
 </div>
